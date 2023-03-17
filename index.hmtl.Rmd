@@ -1,0 +1,45 @@
+---
+title: "Index.Rmd"
+subtitle: "STATS 220 Semester One 2022"
+author: "Jeremy Yu"
+date: "2023-03-17"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE)
+```
+
+```{css}
+body {
+  background-color: lightgreen;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+```
+
+## My meme
+
+In my meme, I try to use two online inages about Volcanoes and snow-capped mountains to show the severity of the weather temperature. When it's too hot to live and too cold I use sarcasm to protest
+
+```{r file='meme.R', eval = FALSE}
+```
+
+![](my_meme.png)
+
+## my animated GIF
+
+In my GIF, I used some online pictures to show the cat's cute.
+
+```{r file='animation.R', eval=FALSE}
+```
+
+![](my_animation.gif)
